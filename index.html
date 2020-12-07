@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Переносы</title>
+</head>
+<body>
+<p class="word">Один<wbr>надцатиклас<wbr>сница
+ Анжелика после окончания школы выбрала профессию
+ дело<wbr>произ<wbr>водитель<wbr>ницы.</p>
+ <p class="word">Один&shy;надцатиклас&shy;сница
+ Анжелика после окончания школы выбрала профессию
+ дело&shy;произ&shy;водитель&shy;ницы.</p>
+ <p class="wordbreak">Одиннадцатиклассница Анжелика после окончания школы
+выбрала профессию делопроизводительницы.</p>
+
+</body>
+<style>
+.word {
+    width: 160px;
+    background: #f0f0f0;
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 18px;
+}
+.wordbreak {
+    width: 160px;
+    background: #f0f0f0;
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 18px;
+    word-break: break-all;
+}
+</style>
+</html>
